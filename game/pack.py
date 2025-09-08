@@ -40,3 +40,15 @@ class PackOpener:
             else:
                 self.packs_since[rarity] += 1
         return rarities
+
+
+class CardPackOpener(PackOpener):
+    """Pack opener that returns actual cards using a card library."""
+
+    def __init__(self, library, rarity_odds: Dict[str, float], pity: Dict[str, int], cards_per_pack: int = 5, rng: Optional[random.Random] = None):
+        super().__init__(rarity_odds, pity, cards_per_pack, rng)
+        self.library = library
+
+    def open_pack_cards(self):
+        rarities = self.open_pack()
+        return [self.library.random_by_rarity(r, self.rng) for r in rarities]
