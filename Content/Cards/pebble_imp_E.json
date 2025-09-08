@@ -1,0 +1,13 @@
+{
+  "id":"pebble_imp_001_E",
+  "display_name":"Pebble Imp",
+  "set":"Dungeon Depths",
+  "rank":"E",
+  "rarity":"Common",
+  "role":"Tank",
+  "stats":{"atk":1,"hp":5,"spd":1.0},
+  "ability":{"id":"taunt","text":"Taunts the opposing unit."},
+  "traits":["imp","earth"],
+  "art_tags":["small rock creature","mischievous grin","cave"],
+  "flavor":"Throws itself into danger with rocky enthusiasm."
+}

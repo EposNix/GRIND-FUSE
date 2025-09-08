@@ -1,0 +1,13 @@
+{
+  "id":"torch_moth_001_E",
+  "display_name":"Torch Moth",
+  "set":"Dungeon Depths",
+  "rank":"E",
+  "rarity":"Uncommon",
+  "role":"Support",
+  "stats":{"atk":2,"hp":3,"spd":1.2},
+  "ability":{"id":"ignite","text":"Apply 1 burn each attack."},
+  "traits":["insect","fire"],
+  "art_tags":["glowing moth","ember wings","dark cavern"],
+  "flavor":"Guides the lost with a gentle blaze."
+}

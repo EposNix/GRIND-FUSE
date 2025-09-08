@@ -1,0 +1,13 @@
+{
+  "id":"fire_salamancer_001_E",
+  "display_name":"Fire Salamancer",
+  "set":"Dungeon Depths",
+  "rank":"E",
+  "rarity":"Mythic",
+  "role":"DPS",
+  "stats":{"atk":4,"hp":4,"spd":1.1},
+  "ability":{"id":"ignite_chain","text":"Attacks ignite adjacent foes."},
+  "traits":["reptile","mage"],
+  "art_tags":["flaming salamander","arcane runes","lava pool"],
+  "flavor":"Wields volcanic fury with reckless glee."
+}

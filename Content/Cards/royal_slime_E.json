@@ -1,0 +1,13 @@
+{
+  "id":"royal_slime_001_E",
+  "display_name":"Royal Slime",
+  "set":"Dungeon Depths",
+  "rank":"E",
+  "rarity":"Rare",
+  "role":"Tank",
+  "stats":{"atk":1,"hp":10,"spd":0.7},
+  "ability":{"id":"split_taunt","text":"Taunt the front enemy. On death, spawn 2 Mini-Slimes."},
+  "traits":["ooze","royal"],
+  "art_tags":["purple slime","tiny crown","marble floor"],
+  "flavor":"A gelatinous monarch of dubious lineage."
+}
