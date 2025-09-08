@@ -1,9 +1,10 @@
-"""Run a tiny demonstration of pack opening and fusion."""
+"""Run a tiny demonstration of pack opening, fusion, and battle."""
 
 import json
 from pathlib import Path
 from game.card import Card, fuse
 from game.pack import PackOpener
+from game.battle import simulate_battle
 
 
 def main():
@@ -18,6 +19,9 @@ def main():
     opener = PackOpener(odds, pity)
     rarities = opener.open_pack()
     print(f"Opened pack rarities: {rarities}")
+
+    winner = simulate_battle([fused]*3, [base]*3)
+    print(f"Battle winner: Team {winner}")
 
 
 if __name__ == "__main__":
