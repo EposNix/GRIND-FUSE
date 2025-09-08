@@ -1,0 +1,6 @@
+{
+  "pack_id":"core_v1",
+  "cards_per_pack":5,
+  "rarity_odds":{"Common":0.65,"Uncommon":0.25,"Rare":0.08,"Mythic":0.02},
+  "pity":{"rare_at":10,"mythic_at":30}
+}
