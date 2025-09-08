@@ -1,0 +1,13 @@
+{
+  "id":"slime_knight_001_E",
+  "display_name":"Gelatinous Page",
+  "set":"Dungeon Depths",
+  "rank":"E",
+  "rarity":"Common",
+  "role":"Tank",
+  "stats":{"atk":1,"hp":6,"spd":0.8},
+  "ability":{"id":"absorb_split","text":"Absorb damage equal to DEF each round. On death, spawn 2 Mini-Slimes."},
+  "traits":["ooze","knight"],
+  "art_tags":["green slime","battered pauldron","torchlit corridor"],
+  "flavor":"Once a squire. Now mostly pudding."
+}
