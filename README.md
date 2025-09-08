@@ -12,7 +12,7 @@ Content/
 
 game/           # Python modules implementing ranks, cards, and pack opening
 
-tests/          # unit tests covering fusion and pity logic
+tests/          # unit tests covering fusion, pity, and combat synergies
 ```
 
 ## Quickstart
